@@ -1,0 +1,36 @@
+.centralizarImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizarProvincia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizarProvincia img {
+    width: 70%;
+}
+
+body {
+    background-color: #F8E6C0;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+
+@media screen and (max-width: 1255px) {
+    .centralizarImagem {
+        margin-top: 20%;
+        -webkit-transform: rotate(270deg);
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 600px) {
+    .centralizarProvincia img {
+        width: 110%;
+    }
+}

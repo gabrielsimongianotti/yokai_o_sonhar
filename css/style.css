@@ -1,0 +1,24 @@
+.colona{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartao {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: rgb(241, 208, 135);
+  float: left;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonte/go3v2.ttf);
+}
+a {
+  font-family: myFirstFont;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+.row {margin-left: 5px;}
